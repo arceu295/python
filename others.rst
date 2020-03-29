@@ -29,3 +29,18 @@ Using to call a function
     my_func(**kwargs)
 
 ..
+
+Enumerate()
+************
+
+.. note::
+    Syntax: enumerate(iterable, start=0)
+..
+
+.. code-block:: python
+
+    str = "test"
+    print(list(enumerate(str, 100)))
+    # => [(100, 't'), (101, 'e'), (102, 's'), (103, 't')]
+
+..
